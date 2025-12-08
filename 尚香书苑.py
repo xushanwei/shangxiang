@@ -382,7 +382,7 @@ class AutoTask:
                 money = match.group(1)
                 uid = uid_match.group(1)
                 if print_info:
-                    logging.info(f"[用户{uid}]现有金钱 {money}")
+                    logging.info(f"您现有金钱 {money}")
                 return uid
             logging.warning("[获取用户信息]无法获取用户金钱信息")
             return None
